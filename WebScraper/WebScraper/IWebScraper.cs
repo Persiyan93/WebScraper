@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebScraper
+namespace Web
 {
-    interface Interface1
+    interface IWebScraper
     {
+        public void Start();
+
     }
 }
