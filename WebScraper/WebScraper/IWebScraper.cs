@@ -8,7 +8,7 @@ namespace Web
 {
     interface IWebScraper
     {
-        public void Start();
+        public  Task<byte[]> Start();
 
     }
 }
